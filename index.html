@@ -4,23 +4,27 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Podologo - Iryna Dudych</title>
 </head>
 <body>
     <header>
-        <h1>Podologo - <span style="color:grey;">Iryna Dudych</span></h1>
-        <main><h3>Salute e benessere dei tuoi piedi<h3></main>
+        <h1><span style="color:rgb(245, 237, 22);">Podologo - Iryna Dudych</span></h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about">Chi sono</a></li>
+                <li><a href="#services">Servizi offerti</a></li>
+                <li><a href="#contacts">Contatti</a></li>
+            </ul>
+        </nav>
+        <section class="cerca"><input id="searchField" placeholder="Cerca..." />
+    <button>Cerca</button>
+    </section>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">Chi sono</a></li>
-            <li><a href="#services">Servizi offerti</a></li>
-            <li><a href="#contacts">Contatti</a></li>
-        </ul>
-        <input  id="searchField" placeholder="Cerca..."/>
-        <button>Cerca</button>
-    </nav>
     <br/>
+    <section>
+    <main><h3>Salute e benessere dei tuoi piedi</h3></main>
+    </section>
     <div>
         <section>
             <img src="https://plus.unsplash.com/premium_photo-1677507322385-bd5f2d37aa07?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modello di piede umano" style="width:20%;height:10%;" />
@@ -28,7 +32,7 @@
         <section id="about">
             <h2>Chi sono</h2>
             <p>
-                Sono un podologo specializzato nella cura del piede, con anni di esperienza. Il mio studio è dedicato alla prevenzione, diagnosi e trattamento delle patologie delhttps://www.w3schools.com/spaces/ piede, garantendo un servizio professionale e personalizzato.
+                <span style="color:rgb(245, 237, 22);">Sono un podologo specializzato nella cura del piede, con anni di esperienza.<br/> Il mio studio è dedicato alla prevenzione, diagnosi e trattamento delle patologie del piede, <br/>garantendo un servizio professionale e personalizzato.</span>
             </p>
         </section>
         <section id="services">
@@ -39,15 +43,22 @@
                 <li>Cura delle infezioni fungine e batteriche</li>
             </ol>
         </section>
-        <section id="contacts">
-            <h2>Contatti</h2>
-            <p>Per fissare un appuntamento o per maggiori informazioni:</p>    
-                <strong>Telefono: +39 012 3456789<br /> </strong>
-                <strong>Instagram:</strong> <a href="https://www.instagram.com/irynadudych_podologo/">https://www.instagram.com/irynadudych_podologo/</a></strong>          
-        </section>
+       
     </div>
     <footer>
-        <p>Indirizzo: Via Salute, 10, 00122,Lido di Ostia, Roma, Italia</p>
+        <section class="contatti">
+            <h2 id="contatti-titolo">Contatti</h2>
+            <div class="contatti-contenuto">
+                <div class="colonna">
+                    <p class="contatti-testo">Per fissare un appuntamento o per maggiori informazioni:</p>
+                    <strong>Telefono: +39 012 3456789<br /> </strong>
+                </div>
+                <div class="colonna">
+                    <strong>Instagram:</strong> <a href="https://www.instagram.com/irynadudych_podologo/">https://www.instagram.com/irynadudych_podologo/</a>
+                    <p>Indirizzo: Via Salute, 10, 00122, Lido di Ostia, Roma, Italia</p>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
